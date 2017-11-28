@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import { Image, Platform, StyleSheet, Text, View } from 'react-native';
+import { Platform, StyleSheet, Text, View } from 'react-native';
 
 const Banner = () => (
   <View style={styles.banner}>
@@ -19,13 +19,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     padding: 16,
     marginTop: Platform.OS === 'ios' ? 20 : 0,
-  },
-  image: {
-    width: 36,
-    height: 36,
-    resizeMode: 'contain',
-    tintColor: '#fff',
-    margin: 8,
   },
   title: {
     fontSize: 18,

@@ -47,7 +47,7 @@ module.exports = {
     rules: [babelLoaderConfiguration, imageLoaderConfiguration],
   },
   output: {
-    path: path.join(__dirname, 'build'),
+    path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
   },
   devtool: 'inline-source-map',

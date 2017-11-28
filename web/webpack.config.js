@@ -40,7 +40,7 @@ const imageLoaderConfiguration = {
 };
 const devServer = {
   devServer: {
-    contentBase: path.join(__dirname, 'build'),
+    contentBase: path.join(__dirname, 'dist'),
     // enable HMR
     hot: true,
     // embed the webpack-dev-server runtime into the bundle
@@ -58,7 +58,7 @@ module.exports = {
     rules: [babelLoaderConfiguration, imageLoaderConfiguration],
   },
   output: {
-    path: path.join(__dirname, 'build'),
+    path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
   },
   devtool: 'source-map',

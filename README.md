@@ -2,7 +2,7 @@
 
 ## Overview
 
-It is an upgrade from [react-native-web-boilerplate(https://github.com/agrcrobles/react-native-web-boilerplate)
+It is an upgrade from [react-native-web-boilerplate](https://github.com/agrcrobles/react-native-web-boilerplate)
 
 An minimum boilerplate to configure `react-native-web` + `react-native` with React 16 fiber!
 
