@@ -2,13 +2,9 @@
 
 ## Overview
 
-It is an upgrade from [react-native-web-boilerplate](https://github.com/agrcrobles/react-native-web-boilerplate)
+I am an upgrade from [react-native-web-boilerplate](https://github.com/agrcrobles/react-native-web-boilerplate)
 
 An minimum boilerplate to configure `react-native-web` + `react-native` with React 16 fiber!
-
-## Checking flow for IOS platform
-
-> No Errors!
 
 ## Prerequisites
 
@@ -22,6 +18,13 @@ https://facebook.github.io/react-native/docs/getting-started.html
 ```
 git clone --depth 1 https://github.com/agrcrobles/react-native-web-fiber-boilerplate.git
 ```
+
+## What is on it?
+
+ - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) on native platform
+ - `babel-preset-react-native` is recommended in mobile and in web ( and it hot reloads! )
+ - Jest and Flow
+ - [Prettier](https://prettier.io/docs/en/install.html)
 
 ### Web HMR with webpack-dev-server
 ```
@@ -50,13 +53,6 @@ react-native run-android
 ```
 react-native run-ios
 ```
-
-### More information
-
- - babel-preset: `babel-preset-react-native` is recommended in mobile and in web ( and it hot reloads! )
- - Packager: metro bundler packager is used
- - Jest
- - Prettier!
 
 ## CONTRIBUTING
 
