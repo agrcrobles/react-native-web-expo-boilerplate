@@ -1,5 +1,7 @@
 # React Native for Web - Stateless Boilerplate for Fiber
 
+> **Looking for an statefull boilerplate instead?** Check out [redux-form-styled-for-react-native](https://github.com/agrcrobles/redux-form-styled-for-react-native) for a cross platform app built on `redux`, `redux-form` `react-native-web` and `expo`
+
 ## Overview
 
 I am an upgrade from [react-native-web-boilerplate](https://github.com/agrcrobles/react-native-web-boilerplate)
@@ -54,10 +56,10 @@ react-native run-android
 react-native run-ios
 ```
 
-## CONTRIBUTING
+## Contributing
 
 PR, stars ✭ and issue reporting, welcome!
 
-## LICENSE
+## License
 
 MIT
