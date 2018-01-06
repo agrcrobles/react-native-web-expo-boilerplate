@@ -2,10 +2,10 @@ const webpack = require('webpack');
 
 const path = require('path');
 
-const imageLoaderConfiguration = require('./loaderConfiguration')
-  .imageLoaderConfiguration;
-const babelLoaderConfiguration = require('./loaderConfiguration')
-  .babelLoaderConfiguration;
+const {
+  imageLoaderConfiguration,
+  babelLoaderConfiguration
+} = require('./loaderConfiguration');
 
 module.exports = {
   // ...the rest of your config

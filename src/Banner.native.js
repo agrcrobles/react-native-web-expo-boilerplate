@@ -22,8 +22,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#673ab7',
     flexDirection: 'row',
     justifyContent: 'space-around',
-    padding: 16,
-    marginTop: Platform.OS === 'ios' ? 20 : 0,
+    padding: 16
   },
   title: {
     fontSize: 18,

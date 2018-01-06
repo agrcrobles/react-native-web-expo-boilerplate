@@ -11,22 +11,23 @@
 		"format": "prettier --single-quote --trailing-comma es5 --write 'src/*.js'"
 	},
 	"engines": {
-		"node": ">=6.0.0 <9"
+		"node": ">=6.0.0"
 	},
 	"author": "alejandro garcia <agrcrobles@gmail.com>",
 	"license": "MIT",
 	"dependencies": {
-		"react": "^16.1.1",
+		"react": "16.0.0",
 		"react-dom": "^16.1.1",
-		"react-native": "0.50.3",
+		"react-native": "0.51.0",
 		"react-native-vector-icons": "^4.4.2",
-		"react-native-web": "^0.1.x"
+		"react-native-web": "^0.3.0-rc.4"
 	},
 	"devDependencies": {
 		"babel-jest": "21.2.0",
 		"babel-loader": "^7.1.2",
+		"babel-plugin-react-native-web": "^0.3.0-rc.4",
 		"babel-preset-react-native": "4.0.0",
-		"flow-bin": "^0.56.0",
+		"flow-bin": "^0.57.0",
 		"jest-cli": "^21.2.1",
 		"prettier": "1.8.2",
 		"react-hot-loader": "^3.1.3",

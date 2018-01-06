@@ -2,26 +2,24 @@ const webpack = require('webpack');
 
 const path = require('path');
 
-const imageLoaderConfiguration = require('./loaderConfiguration')
-  .imageLoaderConfiguration;
-const babelLoaderConfiguration = require('./loaderConfiguration')
-  .babelLoaderConfiguration;
+const {
+  imageLoaderConfiguration,
+  babelLoaderConfiguration
+} = require('./loaderConfiguration');
 
 const devServer = {
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    // enable HMR
-    hot: true,
-    // embed the webpack-dev-server runtime into the bundle
-    inline: true,
-    // serve index.html in place of 404 responses to allow HTML5 history
-    historyApiFallback: true,
-    port: 3000,
-  },
+  contentBase: path.join(__dirname, 'dist'),
+  // enable HMR
+  hot: true,
+  // embed the webpack-dev-server runtime into the bundle
+  inline: true,
+  // serve index.html in place of 404 responses to allow HTML5 history
+  historyApiFallback: true,
+  port: 3000,
 };
 module.exports = {
   // ...the rest of your config
-  ...devServer,
+  devServer,
   entry: [path.resolve(__dirname, '../index.web.js')],
   module: {
     rules: [

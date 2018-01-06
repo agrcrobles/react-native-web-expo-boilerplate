@@ -26,7 +26,7 @@ if (module.hot) {
   );
 
   // App registration and rendering
-  AppRegistry.registerComponent('ReactNativeWebBoilerplate', () => App);
+  AppRegistry.registerComponent('ReactNativeWebBoilerplate', () => renderHotApp);
 }
 
 AppRegistry.runApplication('ReactNativeWebBoilerplate', {

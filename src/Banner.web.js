@@ -6,7 +6,7 @@ import { Platform, StyleSheet, Text, View } from 'react-native';
 
 const Banner = () => (
   <View style={styles.banner}>
-    <Text style={styles.title}>React Native Web Boilerplate</Text>
+    <Text style={styles.title}>React Native Web Fiber Boilerplate</Text>
   </View>
 );
 
@@ -18,7 +18,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     padding: 16,
-    marginTop: Platform.OS === 'ios' ? 20 : 0,
   },
   title: {
     fontSize: 18,

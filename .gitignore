@@ -55,3 +55,7 @@ buck-out/
 # bundle
 #
 web/dist/bundle.js
+
+# expo
+#
+.expo
