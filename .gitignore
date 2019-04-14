@@ -55,6 +55,11 @@ buck-out/
 # bundle
 #
 web/dist/bundle.js
+web/dist/bundle.js.map
+
+# webpack-bundle-analyzer
+#
+stats.json
 
 # expo
 #

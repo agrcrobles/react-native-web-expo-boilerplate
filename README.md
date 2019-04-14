@@ -1,6 +1,9 @@
 # expo + react-native-web boilerplate
 
-Trying how expo and react-native-web work together
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b6254035-25f4-49d1-a93d-1996d455d905/deploy-status)](https://app.netlify.com/sites/unruffled-mclean-57f395/deploys)
+
+
+Trying how expo and react-native-web play together with webpack
 
 ## Overview
 
@@ -19,13 +22,20 @@ git clone --depth 1 https://github.com/agrcrobles/react-native-web-fiber-boilerp
 
 ### On Web
 
-Build and open the bundle
+Build the bundle
 
 ```bash
 npm run build
 cd web/dist
 python -m SimpleHTTPServer
 ```
+
+Develop with webpack-dev-server
+
+```bash
+npm start
+```
+
 
 ## More info
 
