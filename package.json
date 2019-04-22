@@ -5,7 +5,7 @@
     "expo:android": "expo start --android",
     "expo:ios": "expo start --ios",
     "eject": "expo eject",
-    "build": "webpack --mode production",
+    "now-build": "webpack --mode production",
     "start": "webpack-dev-server",
     "analyze": "webpack --profile --json > stats.json && webpack-bundle-analyzer stats.json"
   },

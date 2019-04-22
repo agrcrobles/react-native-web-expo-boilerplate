@@ -64,7 +64,13 @@ export default class Selector extends Component {
 
   renderImage(language, i) {
     if (i === this.state.activeIndex) {
-      return <Image style={styles.image} source={{ uri: language.uri }} />;
+      return (
+        <Image
+          key={this.state.activeIndex}
+          style={styles.image}
+          source={{ uri: language.uri }}
+        />
+      );
     } else {
       return null;
     }

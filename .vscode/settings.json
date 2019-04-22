@@ -1,5 +1,4 @@
 {
-	"flow.useNPMPackagedFlow": true,
 	"prettier.singleQuote": true,
 	"prettier.trailingComma": "es5"
 }
